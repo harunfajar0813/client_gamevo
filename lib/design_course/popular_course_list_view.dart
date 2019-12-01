@@ -1,5 +1,9 @@
 import 'package:best_flutter_ui_templates/design_course/design_course_app_theme.dart';
 import 'package:best_flutter_ui_templates/design_course/models/category.dart';
+import 'package:best_flutter_ui_templates/design_course/a_pubg_game.dart';
+import 'package:best_flutter_ui_templates/design_course/b_ml_game.dart';
+import 'package:best_flutter_ui_templates/design_course/c_cod_game.dart';
+import 'package:best_flutter_ui_templates/design_course/d_r6_game.dart';
 import 'package:best_flutter_ui_templates/main.dart';
 import 'package:flutter/material.dart';
 
@@ -55,7 +59,35 @@ class _PopularCourseListViewState extends State<PopularCourseListView>
                   animationController.forward();
                   return CategoryView(
                     callback: () {
-                      widget.callBack();
+                      if (index == 0){
+                        Navigator.push<dynamic>(
+                          context,
+                          MaterialPageRoute<dynamic>(
+                            builder: (BuildContext context) => APubgGame(),
+                          ),
+                        );
+                      } else if (index == 1){
+                        Navigator.push<dynamic>(
+                          context,
+                          MaterialPageRoute<dynamic>(
+                            builder: (BuildContext context) => BCodGame(),
+                          ),
+                        );
+                      } else if (index == 2){
+                        Navigator.push<dynamic>(
+                          context,
+                          MaterialPageRoute<dynamic>(
+                            builder: (BuildContext context) => CMlGame(),
+                          ),
+                        );
+                      } else if (index == 3){
+                        Navigator.push<dynamic>(
+                          context,
+                          MaterialPageRoute<dynamic>(
+                            builder: (BuildContext context) => DR6Game(),
+                          ),
+                        );
+                      }
                     },
                     category: Category.popularCourseList[index],
                     animation: animation,

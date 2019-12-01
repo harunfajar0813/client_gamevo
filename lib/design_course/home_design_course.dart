@@ -1,4 +1,3 @@
-import 'package:best_flutter_ui_templates/design_course/course_info_screen.dart';
 import 'package:best_flutter_ui_templates/design_course/popular_course_list_view.dart';
 import 'package:flutter/material.dart';
 import 'design_course_app_theme.dart';
@@ -50,21 +49,10 @@ class _DesignCourseHomeScreenState extends State<DesignCourseHomeScreen> {
         children: <Widget>[
           Flexible(
             child: PopularCourseListView(
-              callBack: () {
-                moveTo();
-              },
+              callBack: () {},
             ),
           )
         ],
-      ),
-    );
-  }
-
-  void moveTo() {
-    Navigator.push<dynamic>(
-      context,
-      MaterialPageRoute<dynamic>(
-        builder: (BuildContext context) => CourseInfoScreen(),
       ),
     );
   }

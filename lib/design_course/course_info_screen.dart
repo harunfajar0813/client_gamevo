@@ -1,21 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
 import 'design_course_app_theme.dart';
 
 class InvoiceBro {
-  static const String game_name = '';
-  static const String voucher_name = '';
-  static const String PassionTraveling = '';
-  String firstName = '';
-  String lastName = '';
-  Map passions = {
-    game_name: false,
-    voucher_name: false,
-    PassionTraveling: false
-  };
-  bool newsletter = false;
-  save() {
-    print('saving user using a web service');
-  }
+  String game_name;
+  String voucher_name;
+  String account_id;
+  String paypal_account;
+
+  InvoiceBro({this.game_name, this.voucher_name, this.account_id, this.paypal_account});
 }
 
 class CourseInfoScreen extends StatefulWidget {

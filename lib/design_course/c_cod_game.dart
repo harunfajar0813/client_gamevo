@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'design_course_app_theme.dart';
 
-class CourseInfoScreen extends StatefulWidget {
+class CMlGame extends StatefulWidget {
   @override
   _CourseInfoScreenState createState() => _CourseInfoScreenState();
 }
 
-class _CourseInfoScreenState extends State<CourseInfoScreen>
+class _CourseInfoScreenState extends State<CMlGame>
     with TickerProviderStateMixin {
   final double infoHeight = 364.0;
   AnimationController animationController;
@@ -95,7 +95,7 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                             padding: const EdgeInsets.only(
                                 top: 32.0, left: 18, right: 16),
                             child: Text(
-                              'Web Design\nCourse',
+                              'Call Of Duty Mobile',
                               textAlign: TextAlign.left,
                               style: TextStyle(
                                 fontWeight: FontWeight.w600,
