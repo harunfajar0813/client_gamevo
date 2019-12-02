@@ -70,14 +70,14 @@ class _PopularCourseListViewState extends State<PopularCourseListView>
                         Navigator.push<dynamic>(
                           context,
                           MaterialPageRoute<dynamic>(
-                            builder: (BuildContext context) => BCodGame(),
+                            builder: (BuildContext context) => BMlGame(),
                           ),
                         );
                       } else if (index == 2){
                         Navigator.push<dynamic>(
                           context,
                           MaterialPageRoute<dynamic>(
-                            builder: (BuildContext context) => CMlGame(),
+                            builder: (BuildContext context) => CCodGame(),
                           ),
                         );
                       } else if (index == 3){

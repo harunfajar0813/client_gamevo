@@ -1,4 +1,5 @@
 import 'package:best_flutter_ui_templates/design_course/popular_course_list_view.dart';
+import 'package:best_flutter_ui_templates/design_course/history_list.dart';
 import 'package:flutter/material.dart';
 import 'design_course_app_theme.dart';
 
@@ -34,6 +35,25 @@ class _DesignCourseHomeScreenState extends State<DesignCourseHomeScreen> {
                 ),
               ),
             ),
+            Padding(
+              padding: const EdgeInsets.only(bottom:40.0, left: 300, right: 18),
+              child: Column(
+                children: <Widget>[
+                  FloatingActionButton(
+                    onPressed: () {
+                        Navigator.push<dynamic>(
+                          context,
+                          MaterialPageRoute<dynamic>(
+                            builder: (BuildContext context) => HistoryList(),
+                          ),
+                        );
+                    },
+                    child: Icon(Icons.history),
+                    backgroundColor: Colors.blueAccent,
+                  ),
+                ],
+              )
+            )
           ],
         ),
       ),

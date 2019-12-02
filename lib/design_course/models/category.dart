@@ -33,13 +33,13 @@ class Category {
   static List<Category> popularCourseList = <Category>[
     Category(
       imagePath: 'assets/design_course/interFace3.png',
-      title: 'Player Unknown Battle Ground Mobile',
+      title: 'PUBG Mobile',
       lessonCount: 'FPS',
       money: 25,
     ),
     Category(
       imagePath: 'assets/design_course/interFace4.png',
-      title: 'Mobile Legend Bang-Bang',
+      title: 'Mobile Legend',
       lessonCount: 'MOBA',
       money: 208,
     ),
