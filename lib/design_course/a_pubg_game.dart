@@ -221,24 +221,24 @@ class _CourseInfoScreenState extends State<APubgGame> with TickerProviderStateMi
                                           },
                                           dataSource: [
                                             {
-                                              "display": "10 UC",
-                                              "value": "10 UC",
+                                              "display": "10 UC - Rp.100.000",
+                                              "value": "10 UC - Rp.100.000",
                                             },
                                             {
-                                              "display": "20 UC",
-                                              "value": "20 UC",
+                                              "display": "20 UC - Rp.200.000",
+                                              "value": "20 UC - Rp.200.000",
                                             },
                                             {
-                                              "display": "30 UC",
-                                              "value": "30 UC",
+                                              "display": "30 UC - Rp.300.000",
+                                              "value": "30 UC - Rp.300.000",
                                             },
                                             {
-                                              "display": "40 UC",
-                                              "value": "40 UC",
+                                              "display": "40 UC - Rp.400.000",
+                                              "value": "40 UC - Rp.400.000",
                                             },
                                             {
-                                              "display": "50 UC",
-                                              "value": "50 UC",
+                                              "display": "50 UC - Rp.400.000",
+                                              "value": "50 UC - Rp.400.000",
                                             },
                                           ],
                                           textField: 'display',

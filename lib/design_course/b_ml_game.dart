@@ -221,24 +221,24 @@ class _CourseInfoScreenState extends State<BMlGame> with TickerProviderStateMixi
                                           },
                                           dataSource: [
                                             {
-                                              "display": "10 Diamonds",
-                                              "value": "10 Diamonds",
+                                              "display": "10 Diamonds - Rp.100.000",
+                                              "value": "10 Diamonds - Rp.100.000",
                                             },
                                             {
-                                              "display": "20 Diamonds",
-                                              "value": "20 Diamonds",
+                                              "display": "20 Diamonds - Rp.150.000",
+                                              "value": "20 Diamonds - Rp.150.000",
                                             },
                                             {
-                                              "display": "30 Diamonds",
-                                              "value": "30 Diamonds",
+                                              "display": "30 Diamonds - Rp.200.000",
+                                              "value": "30 Diamonds - Rp.200.000",
                                             },
                                             {
-                                              "display": "40 Diamonds",
-                                              "value": "40 Diamonds",
+                                              "display": "40 Diamonds - Rp.250.000",
+                                              "value": "40 Diamonds - Rp.250.000",
                                             },
                                             {
-                                              "display": "50 Diamonds",
-                                              "value": "50 Diamonds",
+                                              "display": "50 Diamonds - Rp.300.000",
+                                              "value": "50 Diamonds - Rp.300.000",
                                             },
                                           ],
                                           textField: 'display',

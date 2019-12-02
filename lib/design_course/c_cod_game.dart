@@ -221,24 +221,24 @@ class _CourseInfoScreenState extends State<CCodGame> with TickerProviderStateMix
                                           },
                                           dataSource: [
                                             {
-                                              "display": "10 CP",
-                                              "value": "10 CP",
+                                              "display": "10 CP - Rp. 50.000",
+                                              "value": "10 CP - Rp. 50.000",
                                             },
                                             {
-                                              "display": "20 CP",
-                                              "value": "20 CP",
+                                              "display": "20 CP - Rp. 75.000",
+                                              "value": "20 CP - Rp. 75.000",
                                             },
                                             {
-                                              "display": "30 CP",
-                                              "value": "30 CP",
+                                              "display": "30 CP - Rp. 100.000",
+                                              "value": "30 CP - Rp. 100.000",
                                             },
                                             {
-                                              "display": "40 CP",
-                                              "value": "40 CP",
+                                              "display": "40 CP - Rp. 125.000",
+                                              "value": "40 CP - Rp. 125.000",
                                             },
                                             {
-                                              "display": "50 CP",
-                                              "value": "50 CP",
+                                              "display": "50 CP - Rp. 150.000",
+                                              "value": "50 CP - Rp. 150.000",
                                             },
                                           ],
                                           textField: 'display',

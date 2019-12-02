@@ -221,24 +221,24 @@ class _CourseInfoScreenState extends State<DR6Game> with TickerProviderStateMixi
                                           },
                                           dataSource: [
                                             {
-                                              "display": "10 Credits",
-                                              "value": "10 Credits",
+                                              "display": "10 Credits - Rp. 500.000",
+                                              "value": "10 Credits - Rp. 500.000",
                                             },
                                             {
-                                              "display": "20 Credits",
-                                              "value": "20 Credits",
+                                              "display": "20 Credits - Rp. 600.000",
+                                              "value": "20 Credits - Rp. 600.000",
                                             },
                                             {
-                                              "display": "30 Credits",
-                                              "value": "30 Credits",
+                                              "display": "30 Credits - Rp. 700.000",
+                                              "value": "30 Credits - Rp. 700.000",
                                             },
                                             {
-                                              "display": "40 Credits",
-                                              "value": "40 Credits",
+                                              "display": "40 Credits - Rp. 800.000",
+                                              "value": "40 Credits - Rp. 800.000",
                                             },
                                             {
-                                              "display": "50 Credits",
-                                              "value": "50 Credits",
+                                              "display": "50 Credits - Rp. 900.000",
+                                              "value": "50 Credits - Rp. 900.000",
                                             },
                                           ],
                                           textField: 'display',
