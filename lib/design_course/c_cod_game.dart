@@ -108,7 +108,7 @@ class _CourseInfoScreenState extends State<CCodGame> with TickerProviderStateMix
               children: <Widget>[
                 AspectRatio(
                   aspectRatio: 1.2,
-                  child: Image.asset('assets/design_course/webInterFace.png'),
+                  child: Image.asset('assets/design_course/game_cod.jpg'),
                 ),
               ],
             ),

@@ -108,7 +108,7 @@ class _CourseInfoScreenState extends State<BMlGame> with TickerProviderStateMixi
               children: <Widget>[
                 AspectRatio(
                   aspectRatio: 1.2,
-                  child: Image.asset('assets/design_course/webInterFace.png'),
+                  child: Image.asset('assets/design_course/game_ml.jpg'),
                 ),
               ],
             ),

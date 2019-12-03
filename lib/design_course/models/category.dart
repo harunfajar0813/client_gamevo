@@ -32,25 +32,25 @@ class Category {
 
   static List<Category> popularCourseList = <Category>[
     Category(
-      imagePath: 'assets/design_course/interFace3.png',
+      imagePath: 'assets/design_course/logo_pubg1.pn\g',
       title: 'PUBG Mobile',
       lessonCount: 'FPS',
       money: 25,
     ),
     Category(
-      imagePath: 'assets/design_course/interFace4.png',
+      imagePath: 'assets/design_course/logo_ml.png',
       title: 'Mobile Legend',
       lessonCount: 'MOBA',
       money: 208,
     ),
     Category(
-      imagePath: 'assets/design_course/interFace3.png',
+      imagePath: 'assets/design_course/logo_cod.png',
       title: 'Call of Duty Mobile',
       lessonCount: 'FPS',
       money: 25,
     ),
     Category(
-      imagePath: 'assets/design_course/interFace4.png',
+      imagePath: 'assets/design_course/logo_r62.jpg',
       title: 'Rainbow Six Siege',
       lessonCount: 'FPS',
       money: 208,
